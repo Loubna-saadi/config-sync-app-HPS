@@ -1,0 +1,34 @@
+.card-stats {
+  border-radius: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.card-stats:hover {
+  transform: translateY(-5px);
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+.bg-gradient-blue {
+  background: linear-gradient(87deg, RGB(76, 147, 159) 0, RGB(123, 185, 196) 100%) !important;
+}
+.bg-gradient-orange {
+  background: linear-gradient(87deg, RGB(241, 70, 71) 0, RGB(251, 168, 126) 100%) !important;
+}
+.bg-gradient-dark {
+  background: linear-gradient(87deg, #33335e 0, #654c86 100%) !important;
+}
+
+.text-primary { color: #5e72e4 !important; }
+.text-info { color: #11cdef !important; }
+.text-warning { color: #fb6340 !important; }
+.icon-shape {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-purple { color: #8965e0; }

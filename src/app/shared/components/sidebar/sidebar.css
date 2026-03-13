@@ -1,0 +1,36 @@
+.sidebar {
+  width: 250px;
+  background: white;
+  height: 100vh;
+  border-right: 1px solid #ececec;
+}
+
+.nav-link {
+  color: #525f7f;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.nav-link.active {
+  color: #5e72e4;
+  background: #f6f9fc;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 0.9rem;
+}
+
+/* Couleurs douces Argon */
+.bg-primary-light { background: #e8eafc; }
+.bg-info-light { background: #e0f2f1; }
+.bg-danger-light { background: #fdeaea; }
